@@ -24,6 +24,6 @@ FileExtensions:
 Installers:
 - InstallerUrl: https://products.lablicate.com/openchrom/1.5.0/OpenChrom_1.5.0_setup_x64.exe
   Architecture: x64
-  InstallerSha256: 965ede6eef34666d02bd00c6bccaf5d48983c646cf7456e8cb45c5fc6609c7fe
+  InstallerSha256: 18085cf8317bd060401ea36be6b81027797ff723fe8151563cf9d422b0ab3995
 ManifestType: installer
 ManifestVersion: 1.9.0

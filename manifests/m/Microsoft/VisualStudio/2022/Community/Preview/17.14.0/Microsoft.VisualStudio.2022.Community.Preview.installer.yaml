@@ -49,7 +49,7 @@ FileExtensions:
 - xml
 Installers:
 - Architecture: x64
-  InstallerUrl: https://download.visualstudio.microsoft.com/download/pr/fc02efcc-956d-493d-bef7-ca5e3bdcf0d1/8f99fcf005f3a9a60b3272739188e25883e4880874cd03f76631e1e5eacdf16f/vs_Community.exe
-  InstallerSha256: 8F99FCF005F3A9A60B3272739188E25883E4880874CD03F76631E1E5EACDF16F
+  InstallerUrl: https://download.visualstudio.microsoft.com/download/pr/f50ab15d-99d5-43aa-b0b4-496b6cb1e574/d3dda7d03593a76dc9c550193a725d62bb494f5f318d73a9f1684a27b3d941ee/vs_Community.exe
+  InstallerSha256: D3DDA7D03593A76DC9C550193A725D62BB494F5F318D73A9F1684A27B3D941EE
 ManifestType: installer
 ManifestVersion: 1.6.0
