@@ -1,0 +1,42 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: Mozilla.Firefox.DeveloperEdition.nn-NO
+PackageVersion: "141.0"
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Silent: /S /PreventRebootRequired=true
+  SilentWithProgress: /S /PreventRebootRequired=true
+  InstallLocation: /InstallDirectoryPath="<INSTALLPATH>"
+UpgradeBehavior: install
+Protocols:
+- http
+- https
+- mailto
+FileExtensions:
+- avif
+- htm
+- html
+- pdf
+- shtml
+- svg
+- webp
+- xht
+- xhtml
+ReleaseDate: 2025-07-09
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/141.0b8/win32/nn-NO/Firefox%20Setup%20141.0b8.exe
+  InstallerSha256: E032B499454BF466F7C455D08FD93C49395CD39251B9B0AC902739026A24A86E
+  ProductCode: Firefox Developer Edition 141.0 (x86 nn-NO)
+- Architecture: x64
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/141.0b8/win64/nn-NO/Firefox%20Setup%20141.0b8.exe
+  InstallerSha256: 9F5A1EE92F1947BCB662AB423D99E8A99EE9B2E7350418128495E3E83D66DC65
+  ProductCode: Firefox Developer Edition 141.0 (x64 nn-NO)
+- Architecture: arm64
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/141.0b8/win64-aarch64/nn-NO/Firefox%20Setup%20141.0b8.exe
+  InstallerSha256: CD2DBE21ABBEF62D6337508960380C24DB083CC88DE5CE95713F0255F8CCC44B
+  ProductCode: Firefox Developer Edition 141.0 (arm64 nn-NO)
+ManifestType: installer
+ManifestVersion: 1.10.0
