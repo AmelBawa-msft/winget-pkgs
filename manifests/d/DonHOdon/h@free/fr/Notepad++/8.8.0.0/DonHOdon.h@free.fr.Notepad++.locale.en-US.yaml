@@ -1,0 +1,25 @@
+# Created using wingetcreate 1.9.14.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+
+PackageIdentifier: DonHOdon.h@free.fr.Notepad++
+PackageVersion: 8.8.0.0
+PackageLocale: en-US
+Publisher: Don HO don.h@free.fr
+PublisherUrl: https://github.com/notepad-plus-plus
+PublisherSupportUrl: https://github.com/notepad-plus-plus/notepad-plus-plus/issues
+PackageName: Notepad++
+PackageUrl: https://github.com/notepad-plus-plus/notepad-plus-plus
+License: NOASSERTION
+Copyright: Copyleft 1998-2017 by Don HO
+ShortDescription: 'Notepad++ : a free (GNU) source code editor'
+Tags:
+- editor
+- notepad
+- notepad-official
+- windows
+ReleaseNotesUrl: https://github.com/notepad-plus-plus/notepad-plus-plus/releases/tag/v8.8
+Documentations:
+- DocumentLabel: Wiki
+  DocumentUrl: https://github.com/notepad-plus-plus/notepad-plus-plus/wiki
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0
