@@ -1,0 +1,13 @@
+# Created using wingetcreate 1.9.4.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: DonHOdon.h@free.fr.Notepad++
+PackageVersion: 8.7.0.0
+InstallerType: nullsoft
+Installers:
+- Architecture: x86
+  InstallerUrl: https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7/npp.8.7.Installer.exe
+  InstallerSha256: 3FF0B334954A8FF845756AA09CE4FFB9B7780250CD7D84C1DCE97C02AD399DB5
+ManifestType: installer
+ManifestVersion: 1.9.0
+ReleaseDate: 2024-09-17
